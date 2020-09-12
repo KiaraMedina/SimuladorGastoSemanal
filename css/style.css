@@ -1,0 +1,190 @@
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: lighter;
+    font-size: 23px;
+    color: rgb(121, 121, 121);
+    margin-top: 5px;
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#09e6ff+0,007fce+44,002082+100 */
+    background: rgb(9, 230, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(9, 230, 255, 1) 0%, rgba(0, 127, 206, 1) 44%, rgba(0, 32, 130, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(9, 230, 255, 1) 0%, rgba(0, 127, 206, 1) 44%, rgba(0, 32, 130, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(9, 230, 255, 1) 0%, rgba(0, 127, 206, 1) 44%, rgba(0, 32, 130, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#09e6ff', endColorstr='#002082', GradientType=1);
+    /* IE6-9 */
+}
+
+.contenedor {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 20px;
+}
+
+.contenido {
+    background-color: #ffffff;
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    /*display: flex;
+    flex-direction: column; */
+}
+
+@media only screen and (min-Width:895px) {
+    .contenido {
+        min-width: 50%;
+        min-height: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: row;
+        background-color: #ffffff;
+    }
+    .formulario {
+        width: 70%;
+        height: 70%;
+        padding: 10px;
+        background-color: transparent
+    }
+    .gastos {
+        width: 80%;
+        padding: 20px;
+        margin: 0;
+    }
+    .row2 {
+        width: 49%;
+        background-color: transparent;
+        padding: 20px;
+        margin: 0;
+    }
+    .presupuesto {
+        margin-top: 48px;
+        margin-bottom: 28px;
+    }
+    h1 {
+        font-size: 45px !important;
+        margin-bottom: 0 !important;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+    }
+    div .error {
+        margin-right: 82px;
+    }
+    div .correcto {
+        margin-right: 8px;
+    }
+}
+
+.gastos {
+    display: flex;
+    flex-direction: column;
+}
+
+.buton {
+    padding: 10px;
+    background-color: rgb(6, 76, 228);
+    color: floralwhite;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: darkgrey solid 1px;
+    font-size: 15px;
+}
+
+span {
+    margin: 0%;
+}
+
+label,
+p {
+    font-weight: bolder;
+}
+
+.restantes p {
+    margin-left: 10px;
+    padding: 12px;
+    color: rgb(7, 80, 7);
+}
+
+.presupuesto p {
+    margin-left: 10px;
+    padding: 12px;
+    color: rgb(0, 38, 119);
+}
+
+.presupuesto {
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+}
+
+.restantes {
+    background-color: rgb(0, 255, 170);
+    border-radius: 10px;
+}
+
+.alert-success {
+    background-color: rgb(0, 255, 170);
+    color: rgb(3, 151, 60);
+}
+
+.alert-warning {
+    background-color: rgb(204, 211, 110);
+    color: rgb(162, 177, 29);
+    border-radius: 10px;
+}
+
+.alert-danger {
+    background-color: rgb(214, 90, 90);
+    color: rgb(119, 33, 33);
+    border-radius: 10px;
+}
+
+.error {
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #bd2c00;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.correcto {
+    background-color: rgb(211, 249, 187);
+    border: 1px solid rgb(50, 167, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(8, 107, 39);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row2 {
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 5px;
+}
