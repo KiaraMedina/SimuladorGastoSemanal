@@ -125,7 +125,6 @@ p {
 .restantes p {
     margin-left: 10px;
     padding: 12px;
-    color: rgb(7, 80, 7);
 }
 
 .presupuesto p {
@@ -146,12 +145,12 @@ p {
 
 .alert-success {
     background-color: rgb(0, 255, 170);
-    color: rgb(3, 151, 60);
+    color: rgb(3, 68, 28);
 }
 
 .alert-warning {
     background-color: rgb(204, 211, 110);
-    color: rgb(162, 177, 29);
+    color: rgb(107, 116, 34);
     border-radius: 10px;
 }
 
@@ -187,4 +186,12 @@ p {
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 5px;
+}
+
+li .listaUl {
+    text-decoration: none;
+}
+
+span .decorateDolar {
+    background: #F4511E;
 }

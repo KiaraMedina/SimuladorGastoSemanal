@@ -90,13 +90,15 @@ class Interfaz {
             const restante = document.querySelector('.restantes');
             restante.classList.remove('alert-success', 'alert-warning');
             restante.classList.add('alert-danger');
-        } else if ((presupuestoTotal / 2)) {
+        } else if ((presupuestoTotal / 2) > this.presupuestoRestante) {
             const restante = document.querySelector('.restantes');
             restante.classList.remove('alert-success');
             restante.classList.add('alert-warning');
 
         }
     }
+
+
 
 }
 //EVENT LISTENERS
